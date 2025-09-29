@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bungee&family=Changa+One:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik+Mono+One&display=swap');
+
+
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme{
+  --font-brand: "Rubik Mono One", monospace;
+  --text-brand-large: 5rem;
+  --text-brand-medium: 4.5rem;
+  --text-brand-small: 4.2rem;
+  --color-section-background: #242424;
+  --color-cards-bg: #1B1B1B;
+
+  --font-card: "Oswald", sans-serif;
+  --text-card-title: 2rem;
+  --text-card-title-weight: 300;
+
+  --text-card-description: 0.8rem;
+  --text-card-description-weight: 100;
+
+  --font-section: "Bungee", sans-serif;
+  --text-section: 3rem;
+  --text-section-weight: 400;
+
+  --color-menu-section: #FF5E13;
+  --font-description: "Montserrat", sans-serif;
+  --text-description: 1.4rem;
+  --text-description-weight: 200;
+
+
+
+}
